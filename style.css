@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #292f36ff;
+}
+
+body {
+  margin: 0px 200px;
+  border: 2px solid rgba(151, 107, 12, 0.267);
+  background: no-repeat fixed url(./assets/bg1.jpeg);
+}
+
+main {
+  background: linear-gradient(to right, #e8ccb0ff, #f3e3cdff);
+  padding: 50px 100px 80px;
+}
+
+/*Sobre mim*/
+
+.titulo {
+  color: #c05746ff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  text-shadow: 0 4px 3px rgba(192, 86, 70, 0.445);
+}
+
+.subtitulo {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 0 1px #292f36ff;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+p {
+  text-align: justify;
+  font-size: 25px;
+  font-style: italic;
+  padding-bottom: 35px;
+}
+
+/*Botão*/
+
+.estilobotao {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  padding-bottom: 25px;
+}
+
+.estilobotao div {
+  padding-top: 15px;
+}
+
+#botao {
+  background-color: rgb(219, 166, 139);
+  border: #c05746ff solid 2px;
+  border-radius: 25px;
+  width: 250px;
+  color: #292f36ff;
+  padding: 15px 25px 18px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bolder;
+  box-shadow: 0 3px rgba(206, 90, 72, 0.781);
+}
+
+#botao:hover {
+  background-color:  rgb(192, 141, 115);
+}
+
+/*Hobbies*/
+
+#hobbies {
+  padding: 5px;
+}
+
+#hobbies img {
+  width: 60%;
+  border-radius: 25px;
+  min-width: 200px;
+  box-shadow: 1px 1px 1px 1px  black;
+}
+
+#hobbies li {
+  padding: 10px;
+  width: auto;
+  font-size: larger;
+}
+
+#hobbies li:hover {
+  font-weight: bolder;
+}
+
+/*Viagens*/
+
+#roteiroViagens {
+  padding: 10px 0 70px;
+}
+
+.lugar {
+  font-size: 30px;
+  font-style: oblique;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  background-color:  #edcfc0ff;
+  border: 1px solid rgba(192, 86, 70, 0.233);
+  border-radius: 15px;
+  padding: 0px 10px;
+}
+
+.lugar:hover {
+  background-color:  #e8ccb0ff;
+  border: 2px solid #c05746ff;
+  font-weight: bold;
+}
+
+.foto {
+  width: 70%;
+  border-radius: 15px;
+  border: 3px solid #edcfc0ff;
+  min-width: 200px;
+}
+
+.conteudo {
+  float: left;
+  width: 50%;
+}
+
+/*Sites*/
+
+a {
+  margin-bottom: 15px;
+  width: 500px;
+  height: 15px;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #c05746ff;
+  text-shadow: 1px 0 1px #c05746ff;
+  font-weight: 400;
+}

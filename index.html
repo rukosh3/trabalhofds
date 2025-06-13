@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!--Apresentação-->
+      <h1 class="titulo">André Luiz Roque da Silva</h1>
+      <p>
+        Olá! Meu nome é André, tenho 35 anos, sou casado. Nas horas vagas, você
+        provavelmente vai me encontrar jogando videogame, assistindo a um bom
+        filme ou me aventurando em campanhas de RPG de mesa. Também sou fã de
+        basquete e sempre estou assistindo a todo tipo de partida. Divido a casa
+        (e o sofá!) com minha esposa, a gata Lua e o cachorro Jorginho — a dupla
+        que manda aqui em casa. Seja bem-vindo ao meu cantinho na internet!
+      </p>
+
+      <!--Botão-->
+      <div class="estilobotao">
+        <button id="botao" type="button">
+          CLIQUE AQUI <br />
+          Para ver uma mensagem!
+        </button>
+        <div id="msg"></div>
+      </div>
+
+      <section>
+        <!--Hobbies-->
+        <section id="hobbies" class="conteudo">
+          <h2 class="subtitulo">Meus Hobbies</h2>
+          <ul>
+            <li>Filmes</li>
+            <li>Video Games</li>
+            <li>Basquete</li>
+          </ul>
+          <figure>
+            <!-- Remover width e ajustar pelo css-->
+            <img
+              id="poster"
+              src="./assets/basket.jpg"
+              alt="Pessoas jogando basquete."
+            />
+          </figure>
+        </section>
+        <!--Roteiro de Viagens-->
+        <section id="roteiroViagens" class="conteudo">
+          <h2 class="subtitulo">Lugares Para Visitar</h2>
+          <table class="viagem">
+            <tr>
+              <td class="lugar">Egito</td>
+              <td><img class="foto" src="./assets/egito.webp" alt="Imagem da Esfinge de Gizé em primeiro plano seguida por uma pirâmide ao fundo."/></td>
+            </tr>
+            <tr>
+              <td class="lugar">Japão</td>
+              <td><img class="foto" src="./assets/japao.jpg"  alt="Imagem da torre de um castelo japonês. Ao fundo está o monte Fuji."/></td>
+            </tr>
+            <tr>
+              <td class="lugar">França</td>
+              <td><img class="foto" src="./assets/louvre.jpg" alt="Imagem do Louvre"/></td>
+            </tr>
+          </table>
+        </section>
+      </section>
+      <!--Link de Interesse-->
+      <h2 class="subtitulo">Site que recomendo</h2>
+      <span>🌐</span>
+      <a href="https://www.freecodecamp.org/" target="_blank"> freecodecamp.org</a>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
